@@ -1,4 +1,4 @@
-abcd
-aaaa
-ababab
-.
+sequence subsequence
+person compression
+VERDI vivaVittorioEmanueleReDiItalia
+caseDoesMatter CaseDoesMatter
