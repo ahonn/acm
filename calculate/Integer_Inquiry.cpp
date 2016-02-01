@@ -75,7 +75,7 @@ int main(){
 				sum[i] = carry + '0';
 			}
 		}
-		for(i = strlen(sum)-1;i >= 0; --i ) {
+		for(i = strlen(sum)-1; i >= 0; --i ) {
 			printf("%c", sum[i]);
 		}
 		printf("\n");
