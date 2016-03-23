@@ -16,16 +16,16 @@
 // Sample Input
 
 // 5
-// 2 
-// 3 
-// 5 
-// 7 
+// 2
+// 3
+// 5
+// 7
 // 12
 // 5
-// 2 
-// 16 
-// 64 
-// 256 
+// 2
+// 16
+// 64
+// 256
 // 1024
 // 0
 // Output for Sample Input
@@ -64,7 +64,7 @@ int find() {
     int i, j, k, wh, hasH;
     for (i = n-1; i > 0; --i) {
         for (j = 0; j < i; ++j) {
-            for (k = j+1; k < n; ++k) {
+            for (k = j+1; k < i; ++k) {
                 wh = w[i] - w[j] - w[k];
                 hasH = search(k, wh);
                 if (hasH &&  hasH != i && hasH != j && hasH != k) {
@@ -77,7 +77,7 @@ int find() {
 }
 
 int main(){
-    // freopen("../input.txt", "rt", stdin);
+    freopen("../input.txt", "rt", stdin);
     while(scanf("%d", &n) && n) {
         memset(w, 0, sizeof(w));
         for(int i = 0;i < n; ++i) {
