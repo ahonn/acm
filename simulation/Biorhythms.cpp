@@ -25,7 +25,7 @@
 // 203 301 203 40
 // -1 -1 -1 -1
 //
-// Sample Output 
+// Sample Output
 // Case 1: the next triple peak occurs in 21252 days.
 // Case 2: the next triple peak occurs in 21152 days.
 // Case 3: the next triple peak occurs in 19575 days.
@@ -51,7 +51,7 @@ void key() {
 }
 
 int main() {
-  //freopen("../input.txt", "rt", stdin);
+  freopen("../input.txt", "rt", stdin);
   int t, ans, time;
   int p, e, i, d;
   scanf("%d", &t);
